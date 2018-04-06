@@ -897,6 +897,11 @@
     top: 30px
     right: 15px
     z-index: 1
+    .btn-accBorder
+      background: rgb(140, 77, 139)
+      border: none
+      color: #ffffff
+
 .mainmap-cc
   position: relative
   .priceLow-cc
@@ -939,6 +944,94 @@
         font-size: 90px
         display: block
         line-height: 1
+
+#mapPopup
+  padding: 0px
+  max-width: 80vw
+  width: 80vw
+  background: $accent
+  iframe
+    width: 100%
+
+.secTrigger
+  position: fixed
+  z-index: 3
+  left: 79px
+  top: 50%
+  transform: translateY(-50%)
+  ul
+    list-style: none
+    margin: 0px
+    padding: 0px
+    border-radius: 5px
+    li
+      position: relative
+      &.active
+        a
+          background: #d80000!important
+          color: #ffffff!important
+      a
+        color: #FFFFFF
+        font-weight: 700
+        font-size: 14px
+        width: 25px
+        height: 25px
+        border-radius: 100px
+        display: flex
+        align-items: center
+        text-align: center
+        justify-content: center
+        background: $accent
+        margin-bottom: 10px
+        position: relative
+        &:hover
+          background: $accent2
+      &:hover
+        a
+          &:before
+            content: attr(cont)
+            position: absolute
+            background: rgba($accent, 0.5)
+            border-radius: 5px
+            font-size: 16px
+            height: 48px
+            display: flex
+            align-items: center
+            font-weight: 700
+            left: 46px
+            white-space: nowrap
+            color: #FFFFFF
+            top: 50%
+            transform: translateY(-50%)
+            padding: 5px
+            padding-left: 15px
+            padding-right: 15px
+          &:after
+            content: ''
+            position: absolute
+            left: 34px
+            top: 50%
+            transform: translateY(-50%)
+            width: 0
+            height: 0
+            border-style: solid
+            border-width: 12px 12px 12px 0
+            border-color: transparent rgba($accent, 0.5) transparent transparent
+  .soc-r
+    .item
+      background: rgba($dark, 0.8)
+      margin-top: 6px
+      border-radius: 5px
+      &:hover
+        background: $accent2
+      .svg-cont
+        display: flex
+        align-items: center
+        justify-content: center
+        height: 36px
+
+
+
 //motosky end
 
 /*==========  Desktop First  ==========*/
@@ -1021,6 +1114,7 @@
       color: $accent
     .get-ex
       display: none
+
     .build-info-cc
       display: none
     .priceLow-cc

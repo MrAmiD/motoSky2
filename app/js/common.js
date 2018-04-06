@@ -10,6 +10,24 @@ function scrollAnimate(selector){
     }
 };
 
+function scrollIndicator(selector, selectorAdd){
+    var absOffsetTop = selector.offset().top - 170;
+    var scrollWin = $(window).scrollTop();
+
+    var bottomSelectorPosition = selector.offset().top + selector.outerHeight();
+
+    if (scrollWin >= absOffsetTop) {
+        //console.log('addClass animate');
+        selectorAdd.addClass('active');
+    } else {
+        selectorAdd.removeClass('active');
+    }
+
+    if(scrollWin >= bottomSelectorPosition - 170){
+        selectorAdd.removeClass('active');
+    }
+};
+
 function trigerSliderArrow(sliderSelector, varthis){//При нажатии на кнопки Prev/next преключать позицию слайдера sliderSelector
     console.log('trigerSlider', sliderSelector);
     if($(varthis).hasClass('slick-next')){

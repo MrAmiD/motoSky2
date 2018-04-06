@@ -59,7 +59,7 @@
 <div class="secTrigger">
 	<ul>
 		<li data-trigger=".about-sec" cont="О комплексе">
-			<a onmouseover="" onmouseout="" style="background: red;" href="javascript:void(0)" cont="О комплексе" >
+			<a onmouseover="" onmouseout="" href="javascript:void(0)" cont="О комплексе" >
 				1
 			</a>
 		</li>
@@ -295,7 +295,7 @@
 	<div class="fixed-elem-left">
 		<div class="btn_fix-left">
 			<a class="btn btn-primary btn-lg" onclick="PriceFromSPK()" id="getprice_link2" data-toggle="modal" href="#getprice_form">Акция</a>
-			<a class="btn btn-primary btn-primary-link btn-lg" href="#regontour_form" data-toggle="modal">
+			<a class="btn btn-primary btn-primary-link btn-lg" onclick="$('#mapPopup').click();" href="javascript:void(0);">
 				<span class="svg-c">
 					<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -3189,6 +3189,11 @@
 		</div>
 	</div>
 </div>
+<div data-fancybox="" data-src="#mapPopup">
+	<div id="mapPopup" class="landing-modal" style="display: none;" aria-hidden="false">
+		<a class="dg-widget-link" href="http://2gis.ru/perm/firm/70000001022626288/center/56.34768,58.053314/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Перми</a><div class="dg-widget-link"><a href="http://2gis.ru/perm/firm/70000001022626288/photos/70000001022626288/center/56.34768,58.053314/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a></div><div class="dg-widget-link"><a href="http://2gis.ru/perm/center/56.34768,58.053314/zoom/16/routeTab/rsType/bus/to/56.34768,58.053314╎СтройПанельКомплект, АО, новостройки?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до СтройПанельКомплект, АО, новостройки</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":640,"height":600,"borderColor":"#a3a3a3","pos":{"lat":58.053314,"lon":56.34768,"zoom":16},"opt":{"city":"perm"},"org":[{"id":"70000001022626288"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+	</div>
+</div>
 <!--For this pages END-->
 
 <script type="text/javascript">
@@ -3395,7 +3400,23 @@
 		howBuySlider();
 		feedbackSlider();
 		fbSameSlides();
-		//yandexPoints();
+
+//		section indicator
+
+
+		$(window).scroll(function(){ // scroll event
+
+			$('.secTrigger ul li').each(function(){
+//				[data-trigger=".about-sec"]
+				var secSelector = $(this).data().trigger;
+				scrollIndicator($(secSelector), $('.secTrigger ul li[data-trigger="'+secSelector+'"]'));
+			});
+
+
+
+		});
+
+//		.secTrigger ul li[data-trigger=".about-sec"]
 
 
 
