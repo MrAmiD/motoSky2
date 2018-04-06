@@ -69,7 +69,7 @@ function tabsChange(varthis){
 $('.secTrigger ul li').on('click', function () {
     $("html, body").animate({ scrollTop: $($(this).data().trigger).offset().top - 0}, 600);
 });
- 
+
 
 
 

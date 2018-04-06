@@ -1,184 +1,1210 @@
 @import "../sass/vars"
 
-//contacts Start
-.sec-contac
-  padding: 60px 0px
+//motosky Start
+.features-slider
+  padding: 0 30px
+  .item-c
+    .item-f
+      display: flex
+      align-items: center
+      justify-content: center
+      p
+        max-width: 240px
+        font-weight: 100
+        color: $dark
+        font-size: 16px
+        margin: 0px
+        margin-left: 30px
+  .slick-next:before, .slick-prev:before
+    display: none
+  .slick-arrow
+    display: flex
+    align-items: center
+    justify-content: center
+    &.slick-next
+      width: unset
+      height: unset
+    &.slick-prev
+      width: unset
+      height: unset
+    svg
+      transform: scale(0.5)
+      path
+        fill: $grey
+.section-moto
+  padding: $padding-sec
   .h2
-    text-align: center
     font-size: 36px
-    font-weight: 900
-  .h3
-    font-size: 24px
     font-weight: 700
+    color: $dark
     text-align: center
-.solided-r
-  border: solid 1px $grey
-.ofice-sec
-  .h3
-    margin-bottom: 20px
-    margin-top: 9px
-  .ofice-rr
-    margin-bottom: 50px
-    .prev-c
-      padding: 0px
-    .solided-r
-      .col-12
-        background: #FFFFFF
-    .prev
-      height: 100%
-      min-height: 300px
-      background-repeat: no-repeat
-      background-position: center
-      background-size: cover
-      position: relative
-      &::after
-        content: ''
-        max-width: 100%
+    margin-bottom: 30px
+.about-sec
+  .moto-acont
+    align-items: center
+  .aimg
+    img
+      width: 100%
+      max-width: 100%
+.bg-sec
+  min-height: 640px
+  position: relative
+  .img-bg
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    background-color: #cccccc
+    position: absolute
+    top: 0px
+    left: 0px
+    right: 0px
+    bottom: 0px
+    opacity: 0.2
+.fancybox-button--thumbs, .fancybox-button--share
+  display: none
+.section-moto.factors
+  display: flex
+  align-items: center
+  .standart
+    position: relative
+    z-index: 1
+    background: #FFFFFF
+    padding: 50px 60px
+    border-radius: 2px
+    .row
+      z-index: 3
+    .h2
+      margin-bottom: 50px
+.factors-slider
+  a
+    img
+      height: 340px
+      width: 340px
+      margin: auto
+  .slick-next:before, .slick-prev:before
+    display: none
+
+  .slick-arrow
+    display: flex
+    align-items: center
+    justify-content: center
+    &.slick-next
+      width: unset
+      height: unset
+      right: -37px
+    &.slick-prev
+      width: unset
+      height: unset
+      left: -37px
+  .f-item
+    position: relative
+    &:hover
+      &:after
+        content: attr(cont)
+        width: 100%
+        height: 100%
+        top: 0px
+        left: 0px
+        border: 0px
+        right: 0px
+        background: rgba(#000, 0.7)
+        z-index: 1323
         position: absolute
-        bottom: 20px
-        left: 10px
-        z-index: 10
-        background-image: url('../img/waterMark.png')
-        height: 26px
-        width: 228px
-        background-repeat: no-repeat
-        left: 50%
-        transform: translateX(-50%)
-        background-size: contain
-  .info-b
-    padding: 50px 25px
+        pointer-events: none
+        color: #FFFFFF
+        display: flex
+        align-items: center
+        font-size: 16px
+        font-weight: 100
+        padding-left: 30px
+        padding-right: 30px
+#mapInfo
+  height: 640px
+  width: 100%
+  background-color: $grey
+  position: absolute
+  top: 0px
+  left: 0px
+//z-index: 102
+.customScroll
+  &::-webkit-scrollbar-track
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)
+    background-color: #F5F5F5
+  &::-webkit-scrollbar
+    width: 5px
+    height: 5px
+    background-color: #F5F5F5
+  &::-webkit-scrollbar-thumb
+    background-color: $accent
+    border: 0px solid #555555
+.infrostructure
+  padding-bottom: 0px
+  padding-top: 28px
+  position: relative
+  z-index: 102
+
+.btn-trigger-ccc
+  margin-top: 267px
+
+.map-c
+  height: 640px
+  .container
+    z-index: 103
+    .row
+      height: 100%
+  .map-ic
+    position: relative
+  .group-r
+    margin-top: 229px
+  .object-otput
+    position: relative
+    top: 70px
+    background: #FFFFFF
+    border: solid 2px $accent
+    padding: 30px
+    display: none
+    //width: 270px
+    max-width: 100%
     ul
       list-style: none
       padding: 0px
+      margin: 0px
+      max-height: 200px
+      overflow: auto
+      height: 200px
       li
-        font-size: 14px
-        display: flex
-        justify-content: space-between
-        align-items: center
-        border-bottom: solid 1px $grey
-        padding-bottom: 5px
-        font-weight: 700
-        margin-top: 25px
-        strong
-          font-weight: 900
-  .map-cc
-    padding: 0px
-
-.comand-sec
-  background: #f5f5f5
-  .h3
+        border-bottom: 1px $grey solid
+        padding-bottom: 10px
+        margin-bottom: 10px
+        margin-right: 10px
+        cursor: pointer
+        &:last-child
+          border-color: transparent
+          padding-bottom: 0px
+        a
+          font-size: 14px
+          color: $dark
+          font-weight: 100
+          line-height: 1.2
+  .btn-trigger-ccv
+    display: flex
+    align-items: flex-end
+  .btn-trigger-cc
+    display: flex
+    flex-wrap: wrap
+    .btn-trigger
+      flex: 1
+      white-space: nowrap
+      margin: 0 15px
+      margin-bottom: 20px
+      &.active
+        background: $accent2
+        color: #FFFFFF
+.btn-trigger
+  background: #FFFFFF
+  border-radius: 5px
+  font-size: 16px
+  font-weight: 100
+  color: $dark
+  border: none
+  outline: none!important
+  margin-bottom: 15px
+  padding: 5px 30px
+  cursor: pointer
+  &.active, &:hover
+    background: $accent
+    color: #FFFFFF
+.cosmos-sec
+  background-image: url("../img/kosmoBg.png")
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  padding: 95px 0
+  &.cosmo-r
+    .cosmoBoy
+      right: 0px
+      left: unset
+      -moz-transform: scaleX(-1)
+      -o-transform: scaleX(-1)
+      -webkit-transform: scaleX(-1)
+      transform: scaleX(-1) translateY(-50%)
+  .h2
+    color: #fff
     font-size: 30px
-    margin-bottom: 30px
-  .prev-c
-    padding: 0px
+    font-weight: 700
+    position: relative
+    z-index: 1
+    text-shadow: 2px 2px $dark
+  .cosmo-cont
+    display: flex
+    flex-direction: column
+    align-items: center
+    position: relative
+  .btn-accent2
+    max-width: 300px
+  .cosmoBoy
+    background-image: url('../img/cosmoBoy.png')
+    width: 286px
+    height: 201px
+    position: absolute
+    left: 0px
+    top: 50%
+    transform: translateY(-50%)
+    z-index: 0
+  .bg-white
+    background: rgba(#ffffff, 0.85)
+    padding: 60px
+    .h2
+      color: #000
+      text-shadow: none
+.section-moto.gallery-sec
+  display: flex
+  align-items: center
+  .standart
+    position: relative
+    z-index: 1
+    background: #FFFFFF
+    padding: 50px 60px
+    border-radius: 2px
+    .col-12
+      padding-left: 5px
+      padding-right: 5px
+    .row
+      z-index: 3
+      margin-left: -5px
+      margin-right: -5px
+    .h2
+      margin-bottom: 50px
+.slick-next:before, .slick-prev:before
+  display: none
+
+.gal-i
+  position: relative
+  &:hover
+    &:after
+      content: "\f0b2"
+      font-size: 20px
+      font-family: 'FontAwesome'
+      display: flex
+      align-items: center
+      justify-content: center
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      width: 40px
+      height: 40px
+      z-index: 10
+      background: $accent
+      color: #FFFFFF
+      border-radius: 100px
+      pointer-events: none
+.gallery-sec
+  .slider-prev
+    width: 100%
+    height: 100%
+    .slider-item
+      margin: 5px
+      margin-right: 0px
+      margin-left: 0px
+      position: relative
+      a
+        height: 448px
+        display: block
+        position: relative
+        &.video-link
+          &:after
+            content: ''
+            width: 68px
+            height: 68px
+            position: absolute
+            background: $accent
+            border-radius: 500px
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            animation: .3s fadeEffect ease
+            transition: all .3s ease
+          &:before
+            content: ''
+            width: 0
+            height: 0
+            border-style: solid
+            border-width: 12.5px 0 12.5px 21.7px
+            border-color: transparent transparent transparent #ffffff
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            z-index: 1
+            animation: .3s fadeEffect ease
+          &:hover
+            &:after
+              background: $accent2
+      .cont-slider
+        margin-top: 15px
+        margin-bottom: 0px
+        font-weight: 100
+        font-size: 14px
+      img
+        width: 100%
+        object-fit: cover
+        max-height: 100%
+.vertical-slider
+  height: 448px
+  .slick-prev
+    top: -19px
+  .slick-next
+    bottom: -30px
+    top: unset
+  .slick-prev, .slick-next
+    left: 50%
+    transform: translateX(-50%)
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    svg
+      transform: scale(0.7)
+  .slider-item
+    margin: 5px
+    margin-left: 0px
+    margin-right: 0px
+    height: 105px
+    border: solid 2px transparent
+    &.slick-current
+      border-color: $accent
     .prev
       height: 100%
-      min-height: 300px
+      width: 100%
+      object-fit: cover
       background-repeat: no-repeat
       background-position: center
+      background-color: $grey-l
       background-size: cover
-  .content
-    padding: 50px 25px
-    h3
-      font-size: 24px
-      font-weight: 900
-      margin-top: 0px
-      text-transform: none
-    p,a
-      font-weight: 700
-      line-height: 1.7
-
-.sec-hr
-  .h3
-    font-size: 30px
-hr
-  border-color: #f5f5f5
-  margin: 0px
-
-.grey-sec
-  background: #f5f5f5
-.emp-r
-  margin-top: 17px
-  .col-12
-    margin-bottom: 50px
-  .emp-i
-    display: flex
-    .ava-i
-      width: 146px
-      min-width: 146px
-      .ava
-        border: solid 5px #ebebeb
-        display: inline-block
-        padding: 10px
-        border-radius: 100%
-        .prev
-          border-radius: 100%
-          width: 116px
-          height: 116px
-      p
-        font-size: 14px
-        font-weight: 500
-        margin-bottom: 0px
-        width: 146px
-        line-height: 1.2
-        margin-top: 10px
-    .emp-info
-      margin-left: 28px
-      .h3
-        font-weight: 900
-        font-size: 24px
-        text-align: left
-        margin-bottom: 35px
-      p
-        font-size: 14px
-        font-weight: 700
+      margin-bottom: 15px
       a
-        color: $accent
-        text-decoration: underline
-        &:hover
-          text-decoration: none
-//contacts end
+        display: block
+        width: 100%
+        height: 100%
+        position: relative
+        &.video-link
+          &:after
+            content: ''
+            width: 34px
+            height: 34px
+            position: absolute
+            background: $accent
+            border-radius: 500px
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            animation: .3s fadeEffect ease
+          &:before
+            content: ''
+            width: 0
+            height: 0
+            border-style: solid
+            border-width: 12.5px 0 12.5px 21.7px
+            border-color: transparent transparent transparent #ffffff
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            z-index: 1
+            animation: .3s fadeEffect ease
+    img
+      width: 100%
+      object-fit: cover
+      max-height: 100%
+.tab-cont
+  &>.row
+    display: none
+    &.active
+      display: flex
+
+.tabs-c
+  display: flex
+  align-items: center
+  .t-item
+    margin-right: 30px
+    padding-bottom: 5px
+    margin-bottom: 30px
+    border-bottom: solid 3px transparent
+    &:last-of-type
+      margin-right: 0px
+    &.active
+      border-color: $dark
+      pointer-events: none
+    a
+      font-size: 20px
+      font-weight: 700
+.fancybox-button--thumbs
+  display: none!important
+.technology-sec
+  img
+    max-width: 100%
+    width: 100%
+.gal-ul
+  margin: 0px
+  padding: 0px
+  list-style: none
+  padding-top: 23px
+  li
+    display: flex
+    align-items: flex-start
+    margin-bottom: 30px
+    &:last-of-type
+      margin-bottom: 0px
+    .li-txt
+      margin-left: 15px
+.teck-cont
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  height: 100%
+  .citata
+    display: flex
+    align-items: center
+    background: $green
+    color: #FFFFFF
+    font-size: 16px
+    font-weight: 700
+    padding: 33px
+    position: relative
+    margin-bottom: 40px
+    &:after
+      content: ''
+      position: absolute
+      bottom: -40px
+      right: 70px
+      width: 0
+      height: 0
+      border-top: 40px solid transparent
+      border-bottom: 40px solid transparent
+      border-left: 40px solid $green
+
+.video-reviews
+  .standart
+    position: relative
+    z-index: 1
+    background: #fff
+    padding: 50px 60px
+    -webkit-border-radius: 2px
+    border-radius: 2px
+    .video-cont
+      display: flex
+      align-items: center
+      justify-content: center
+    iframe
+      width: 100%
+      max-width: 940px
+      height: 400px
+.remont-sec
+  .rem-cont
+    margin-bottom: 25px
+    .item-rem
+      display: flex
+      align-items: center
+      justify-content: center
+      height: 255px
+      position: relative
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+      &:after
+        content: ''
+        position: absolute
+        background: $dark
+        z-index: 1
+        width: 100%
+        height: 100%
+        opacity: 0.3
+      .txt
+        color: #FFFFFF
+        margin: 0px
+        font-size: 20px
+        font-weight: 700
+        padding: 0 15px
+        text-align: center
+        position: relative
+        z-index: 2
+.slider-plan
+  .border-i
+    border: solid 1px #e0e0e0
+  .item-pl
+    margin: 5px
+    p
+      margin: 0px
+      font-weight: 100
+      margin-top: 10px
+    .progres-b
+      background: #e0e0e0
+      height: 5px
+      width: 100%
+      position: relative
+      margin-top: 15px
+      margin-bottom: 30px
+      .bp-line
+        background: $accent2
+        position: absolute
+        left: 0px
+        top: 0px
+        height: 5px
+  .bot-c
+    padding: 30px
+    padding-bottom: 48px
+  .btn-c
+    display: flex
+    justify-content: space-between
+    a
+      border: solid 1px $accent2
+      font-size: 19px
+      font-weight: 700
+      color: $dark
+      padding: 15px 30px
+      border-radius: 5px
+      width: 50%
+      text-align: center
+      margin-right: 10px
+      margin-bottom: 5px
+      display: flex
+      align-items: center
+      justify-content: center
+      &:last-child
+        margin-right: 0px
+        border-color: $accent
+  .prev
+    background-position: center
+    background-size: cover
+    width: 100%
+    height: 550px
+    position: relative
+    background-repeat: no-repeat
+    &.doneBuild,&.soonBuild
+      &:after
+        content: 'Дом сдан'
+        position: absolute
+        left: 0px
+        color: #FFFFFF
+        font-weight: 700
+        font-size: 19px
+        background: $accent2
+        display: flex
+        align-items: center
+        justify-content: center
+        height: 60px
+        width: 200px
+        top: 50px
+    &.soonBuild
+      &:after
+        background: $accent
+        content: 'Скоро сдача'
+.akciiSlider
+  .a-item
+    padding: 30px
+    background: $accent
+    height: 200px
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+    margin: 15px
+    h3
+      color: #FFFFFF
+      text-align: center
+      font-weight: 700
+      font-size: 35px
+    h4
+      color: #FFFFFF
+      font-size: 26px
+      text-align: center
+      font-weight: 700
+    h5
+      color: #FFFFFF
+      text-align: center
+      font-weight: 700
+      font-size: 26px
+  .slick-next, .slick-prev
+    height: 39px
+.txt-pred
+  font-weight: 100
+  font-size: 14px
+  color: $dark
+  padding-left: 15px
+
+.btn-accBorder
+  border: solid 1px $accent2
+  font-size: 19px
+  font-weight: 700
+  color: $dark
+  padding: 15px 30px
+  border-radius: 5px
+  text-align: center
+  margin-right: 10px
+  margin-bottom: 5px
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  background: #FFFFFF
+  &:hover,&:focus
+    color: $dark
+
+#how-buy-slider
+  .hb-item
+    cursor: pointer
+    img
+      margin: auto
+    .how-buy__title
+      font-size: 18px
+      margin: 10px 0
+      padding: 0 10px
+      font-weight: 500
+      color: $accent
+    .how-buy__text
+      font-size: 14px
+      padding: 0 10px
+      font-weight: 300
+
+.buildMonth-sec
+  .build-item
+    margin-bottom: 20px
+    a
+      max-width: 100%
+      display: block
+      width: 100%
+      border: solid 1px $grey
+      img
+        width: 100%
+  p
+    margin-bottom: 0px
+    font-weight: 100
+    margin-top: 20px
+
+.buildMonth-sec
+  .tab-cont
+    .row
+      animation: fadeEffect .3s ease
+  .tabs-c
+    width: 100%
+    justify-content: center
+    .t-item
+      border-width: 2px
+      a
+        font-weight: 100
+        font-size: 16px
+        &:hover, &:focus
+          color: $dark
+
+.docs-sec
+  .standart
+    position: relative
+    z-index: 1
+    background: #fff
+    padding: 50px 60px
+    -webkit-border-radius: 2px
+    border-radius: 2px
+    max-width: 800px
+    border-radius: 5px
+  .h2
+    font-weight: 500
+  .tab-cont
+    .row
+      animation: fadeEffect .3s ease
+  .tabs-c
+    width: 100%
+    justify-content: center
+    .t-item
+      border-width: 1px
+      &.active
+        a
+          font-weight: 500
+      a
+        font-weight: 100
+        font-size: 16px
+        &:hover, &:focus
+          color: $dark
+  .docs-slider__file-item
+    font-weight: 100
+    position: relative
+    display: inline-block
+    padding-left: 35px
+    color: inherit
+    margin-bottom: 15px
+    margin-right: 15px
+    margin-left: 5px
+    font-size: 14px
+    min-height: 34px
+    vertical-align: middle
+    text-decoration: none
+    &:before
+      content: ''
+      position: absolute
+      height: 34px
+      width: 26px
+      left: 0
+      top: 0
+      border-width: 2px
+      border-style: solid
+    .type
+      font-size: 10px
+      text-transform: uppercase
+      font-weight: 700
+      background-color: #fff
+      position: absolute
+      left: -4px
+      top: 11px
+    .full-type
+      display: block
+
+.slider-feedBak
+  margin-top: 70px
+  .a-item
+    margin: 5px
+    .fb-c
+      border: solid 1px #acacac
+      padding: 15px
+    .user-inf
+      display: flex
+      align-items: center
+      margin-bottom: 15px
+      .ava
+        margin-right: 15px
+        border-radius: 100px
+        overflow: hidden
+      .date-n
+        font-weight: 100
+    .content
+      p
+        font-weight: 100
+
+
+.build-info-cc
+  .info-b
+    position: absolute
+    top: 50px
+    left: 0px
+    z-index: 1
+    background: $accent2
+    display: block
+    align-items: center
+    flex-direction: column
+    padding: 20px
+    border-radius: 2px
+    display: none
+    &.empty-b
+      p
+        margin-bottom: 0px
+      a
+        display: none
+    &:hover
+      display: flex!important
+    &:after
+      content: ''
+      width: 20px
+      height: 20px
+      background: inherit
+      position: absolute
+      left: -10px
+      bottom: 10px
+      z-index: 1
+      transform: rotate(45deg)
+    &.b2
+      left: 979px
+      top: 218px
+    &.b1
+      background: #8c4d8b
+      left: 875px
+      top: 383px
+    &.js-area1
+      left: 979px
+      top: 218px
+    &.js-area2
+      left: 875px
+      top: 408px
+    &.js-area3
+      left: 751px
+      top: 439px
+    &.js-area4
+      left: 837px
+      top: 362px
+    &.js-area5
+      left: 890px
+      top: 294px
+    &.js-area6
+      left: 1038px
+      top: 293px
+    &.js-area7
+      left: 1210px
+      top: 222px
+    &.js-area8
+      left: 1215px
+      top: 303px
+    &.js-area9
+      left: 1223px
+      top: 383px
+    &.js-area10
+      left: 1197px
+      top: 438px
+    &.js-area11
+      left: 544px
+      top: 170px
+    &.upp-arr
+      &:after
+        top: -10px
+        bottom: unset
+        left: 10px
+    &.right-arr
+      &:after
+        top: 10px
+        bottom: unset
+        right: -10px
+        left: unset
+    &.right-arr-b
+      &:after
+        bottom: 10px
+        right: -10px
+        left: unset
+    &.bot-arr
+      &:after
+        right: 10px
+        left: unset
+        bottom: -10px
+    p
+      color: #FFFFFF
+      font-size: 16px
+      font-weight: 700
+      text-align: center
+    a
+      color: #FFFFFF
+      font-size: 16px
+      font-weight: 700
+      text-align: center
+      text-decoration: underline
+      display: block
+      &:hover
+        text-decoration: none
+.main-map
+  margin-top: 42px
+  border-top: solid $accent 5px
+  position: relative
+  &>.container
+    position: relative
+    top: -1px
+    overflow: hidden
+  .get-ex
+    position: absolute
+    top: 30px
+    right: 15px
+    z-index: 1
+.mainmap-cc
+  position: relative
+  .priceLow-cc
+    position: absolute
+    bottom: 15px
+    z-index: 1
+    .h3
+      color: #FFFFFF
+      font-size: 55px
+      font-weight: 900
+    .h2
+      font-size: 80px
+      font-weight: 900
+      color: #FFFFFF
+  .price-low
+    left: 0px
+    bottom: 0px
+    position: absolute
+  .title-map
+    position: absolute
+    top: 30px
+    left: 0px
+    z-index: 1
+    display: flex
+    align-items: center
+    .fire-logo
+      margin-right: 30px
+      background-color: rgba(#FFFFFF, 0.5)
+      border-radius: 5px
+      padding: 20px 10px
+      img
+        max-width: 100%
+    h1
+      color: #FFFFFF
+      font-size: 60px
+      margin: 0px
+      line-height: 1
+      .h2
+        color: #ffffff
+        font-size: 90px
+        display: block
+        line-height: 1
+//motosky end
 
 /*==========  Desktop First  ==========*/
 
 @media only screen and (max-width : 1850px)
-  /**/
+  .map-canva>div
+    right: 496px!important
+  .build-info-cc
+    .info-b
+      &.js-area1
+        left: 483px
+        top: 218px
+      &.js-area2
+        left: 379px
+        top: 408px
+      &.js-area3
+        left: 351px
+        top: 439px
+      &.js-area4
+        left: 341px
+        top: 362px
+      &.js-area5
+        left: 394px
+        top: 294px
+      &.js-area6
+        left: 638px
+        top: 317px
+      &.js-area7
+        left: 691px
+        top: 222px
+      &.js-area8
+        left: 714px
+        top: 303px
+      &.js-area9
+        left: 729px
+        top: 383px
+      &.js-area10
+        left: 682px
+        top: 440px
+      &.js-area11
+        left: 50px
+        top: 170px
+  .mainmap-cc
+    .title-map
+      left: 30px
+      h1
+        font-size: 36px
+        .h2
+          font-size: 54px
+    .price-low
+      left: 30px
+      font-size: 35px
+    .priceLow-cc .h2
+      font-size: 70px
 @media only screen and (max-width : 1200px)
-  /**/
+  .secTrigger
+    display: none
+  .buildMonth-sec .tabs-c
+    flex-wrap: wrap
+  .remont-sec .rem-cont .item-rem
+    margin-bottom: 10px
+  .teck-cont .citata
+    margin-top: 30px
+  .gallery-sec .slider-prev .slider-item img
+    height: 100%
+  .factors-slider a img
+    width: 100%
+    object-fit: cover
+  .factors-slider .f-item
+    margin: 5px
+  .features-slider .item-c .item-f
+    align-items: flex-start
+  .feat-slider
+    border-top: solid 5px $accent
+    margin-top: 57px
+  .main-map>.container
+    overflow: visible
+  .mainmap-cc
+    .txt-accent
+      color: $accent
+    .get-ex
+      display: none
+    .build-info-cc
+      display: none
+    .priceLow-cc
+      display: none
+    .map-canva
+      display: none
+    .title-map
+      position: relative
+      h1
+        color: $dark
+        .h2
+          color: $dark
+          text-transform: uppercase
 @media only screen and (max-width : 992px)
-  /**/
-@media only screen and (max-width : 768px)
-  /**/
-@media only screen and (max-width : 576px)
-  .sec-contac .h2
-    font-size: 22px
-  .emp-r
-    .col-12
-    .emp-i
-      flex-direction: column
-      .ava-i
+  .cosmos-sec .btn-accent2
+    z-index: 1
+  .gallery-sec .slider-prev .slider-item a
+    height: 100%
+  .vertical-slider
+    display: none
+  .gallery-sec .slider-prev .slider-item
+    height: 250px
+  .features-slider .item-c .item-f p
+    padding-right: 10px
+  .content
+    table
+      overflow-x: scroll
+      width: 100%
+      display: block
+      tbody
+        display: block
+        min-width: 500px
         width: 100%
-        min-width: 146px
-        text-align: center
-        p
-          width: 100%
-          text-align: center
-          margin-bottom: 10px
-      .emp-info
-        margin-left: 0px
-        .h3
-          font-weight: 900
-          font-size: 16px
-          text-align: center
-          margin-bottom: 6px
-        p
-          margin-bottom: 0px
-          text-align: center
-        a
-          color: $accent
-          text-decoration: underline
-          &:hover
-            text-decoration: none
+@media only screen and (max-width : 768px)
+  .map-c .group-r
+    margin-top: 136px
+  .mainmap-cc .title-map
+    left: unset
+    top: unset
+  .feat-slider
+    margin-top: 0px
+  .mainmap-cc .title-map h1
+    font-size: 16px
+  .mainmap-cc .title-map h1 .h2
+    font-size: 24px
+  .mainmap-cc .title-map .fire-logo
+    min-width: 132px
+@media only screen and (max-width : 576px)
+  .fixed-elem
+    display: none
+  #mapInfo
+    position: relative
+    order: 2
+    overflow: hidden
+    max-width: 80vh
+  .map-c
+    height: auto
+    display: flex
+    flex-direction: column
+    margin-bottom: 30px
+    .group-r
+      display: none
+    .object-otput
+      top: 0px
+    .container
+      padding: 0px
+  .fixed-elem-left
+    display: none
+  .buildMonth-sec
+    padding-bottom: 0px
+  .slider-feedBak
+    margin-top: 15px
+  .how-buy-section
+    padding-bottom: 0px
+  .feedback-sec .standart
+    padding-bottom: 0px
+  .feedback-sec
+    padding-top: 0px
+    padding-bottom: 0px
+  .section-moto.gallery-sec .standart .h2
+    margin-bottom: 30px
+  .cosmos-sec
+    padding: 30px 0px
+  .gal-i
+    &:after
+      content: "\f0b2"
+      font-size: 20px
+      font-family: 'FontAwesome'
+      display: flex
+      align-items: center
+      justify-content: center
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      width: 40px
+      height: 40px
+      z-index: 10
+      background: $accent
+      color: #FFFFFF
+      border-radius: 100px
+      pointer-events: none
+  .remont-sec
+    padding-top: 0px
+    padding-bottom: 0px
+  .video-reviews .standart
+    padding: 30px 15px
+  .technology-sec
+    padding-top: 0px
+  .infrostructure
+    padding-top: 0px
+    padding-bottom: 0px
+  .section-moto.factors .standart .h2
+    margin-bottom: 25px
+  .bg-sec
+    min-height: 1px
+    padding: 0px
+  .section-moto.factors .standart
+    padding: 30px 15px!important
+  .feat-slider
+    padding-bottom: 0px
+    display: none
+  .about-sec
+    border-top: solid 1px $grey
+    padding-bottom: 0px
+  .section-moto.factors .standart
+    padding: 50px 15px
+  .map-c .btn-trigger-cc
+    width: 100%
+  .map-c .btn-trigger-cc .btn-trigger
+    margin-left: 0px
+    margin-right: 0px
+    white-space: inherit
+  .cosmos-sec .bg-white .h2
+    margin-bottom: 0px
+  .cosmos-sec .bg-white .btn-accBorder
+    margin-right: 0px
+  .cosmos-sec .bg-white
+    padding: 15px
+  .slider-plan .prev.doneBuild:after, .slider-plan .prev.soonBuild:after
+    height: 40px
+    width: 200px
+    top: 21px
+  .slider-plan .bot-c
+    padding: 15px
+    padding-bottom: 15px
+  .slider-plan .btn-c
+    flex-direction: column
+  .slider-plan .btn-c a
+    width: 100%
+  .slider-plan .prev
+    height: 250px
+  .video-reviews .standart iframe
+    height: auto
+  .section-moto .h2
+    font-size: 24px
+  .section-moto.gallery-sec .standart
+    padding: 30px 15px
+    padding-bottom: 0px
+  .tabs-c
+    flex-wrap: wrap
+  .cosmos-sec .cosmoBoy
+    display: none
+  .mainmap-cc .title-map .fire-logo
+    display: none
+  .mainmap-cc .title-map
+    padding: 30px 0px
+  .docs-sec .tabs-c
+    flex-wrap: wrap
+    justify-content: center
+    margin-bottom: 15px
+  .docs-sec .tabs-c .t-item
+    margin-right: 0px
+    margin-bottom: 15px
+  .docs-sec .standart
+    padding: 15px
+  .contacts-c
+    flex-direction: column
+    justify-content: flex-end
+    align-items: flex-end
+    .phone
+      margin-bottom: 10px
+    .socials
+      margin-bottom: 10px!important
 /*==========  Mobile First  ==========*/
 
 /* Custom, iPhone Retina */
@@ -199,4 +1225,15 @@ hr
     width: 1170px
     max-width: 100%
 @media only screen and (min-width : 1850px)
-  /**/
+  //my custom grid
+  .mym-cont
+    display: none!important
+  #menu-btn
+    display: none
+  .main-menu
+    display: block
+  .container
+    width: 1753px
+    max-width: 100%
+    &.standart
+      width: 1170px
