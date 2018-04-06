@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1d4d3dbb-f277-4185-8481-0ccfe0eb9775" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/page.min.css" afterPath="$PROJECT_DIR$/app/css/page.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.min.js" afterPath="$PROJECT_DIR$/app/js/common.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sassSingle/page.sass" afterPath="$PROJECT_DIR$/app/sassSingle/page.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/pageCommon.js" afterPath="$PROJECT_DIR$/app/js/pageCommon.js" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +34,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.6254729">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="3197" column="0" selection-start-line="3197" selection-start-column="0" selection-end-line="3197" selection-end-column="0" />
+                <state relative-caret-position="203">
+                  <caret line="3411" column="27" selection-start-line="3411" selection-start-column="12" selection-end-line="3411" selection-end-column="27" />
                   <folding>
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -213,11 +209,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pageCommon.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="pageCommon.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/js/pageCommon.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="328" column="0" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
+                <state relative-caret-position="272">
+                  <caret line="327" column="48" selection-start-line="327" selection-start-column="48" selection-end-line="327" selection-end-column="48" />
                   <folding>
                     <element signature="n#!!block;n#MainSliderInit#0" expanded="false" />
                     <element signature="n#!!block;n#feedbackSliderSliderInit#0" expanded="false" />
@@ -231,11 +227,11 @@
                     <element signature="n#!!block;n#howBuySlider#0" expanded="false" />
                     <element signature="n#!!block;n#inMap#0" expanded="false" />
                     <element signature="n#!!block;n#outMap#0" expanded="false" />
-                    <element signature="e#18549#18623#0" expanded="false" />
-                    <element signature="e#18695#18826#0" expanded="false" />
-                    <element signature="e#18897#18970#0" expanded="false" />
-                    <element signature="e#19044#19090#0" expanded="false" />
-                    <element signature="e#19158#19183#0" expanded="false" />
+                    <element signature="e#19061#19135#0" expanded="false" />
+                    <element signature="e#19207#19338#0" expanded="false" />
+                    <element signature="e#19409#19482#0" expanded="false" />
+                    <element signature="e#19556#19602#0" expanded="false" />
+                    <element signature="e#19670#19695#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -317,11 +313,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="page.sass" pinned="false" current-in-tab="true">
+          <file leaf-file-name="page.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sassSingle/page.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="199">
-                  <caret line="952" column="8" selection-start-line="952" selection-start-column="8" selection-end-line="952" selection-end-column="8" />
+                <state relative-caret-position="19550">
+                  <caret line="1150" column="0" selection-start-line="1150" selection-start-column="0" selection-end-line="1150" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -347,18 +343,18 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="24" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="24" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
                   <folding>
                     <element signature="n#!!block;n#trigerSliderArrow#0" expanded="false" />
                     <element signature="n#!!block;n#trigerSliderPrev#0" expanded="false" />
                     <element signature="n#!!block;n#scrollToElem#0" expanded="false" />
-                    <element signature="e#2064#2138#0" expanded="false" />
+                    <element signature="e#1552#1626#0" expanded="false" />
                     <element signature="n#!!block;n#setFormParam#0" expanded="false" />
-                    <element signature="e#2426#2472#0" expanded="false" />
+                    <element signature="e#1914#1960#0" expanded="false" />
                     <element signature="n#!!block;n#tabsChange#0" expanded="false" />
                   </folding>
                 </state>
@@ -403,11 +399,11 @@
         <option value="$PROJECT_DIR$/app/sassSingle/media.sass" />
         <option value="$PROJECT_DIR$/app/contact.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/js/pageCommon.js" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/sassSingle/page.sass" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/js/pageCommon.js" />
       </list>
     </option>
   </component>
@@ -571,6 +567,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -689,7 +703,7 @@
       <workItem from="1522725338978" duration="8728000" />
       <workItem from="1522900769694" duration="16534000" />
       <workItem from="1522987727961" duration="1124000" />
-      <workItem from="1522989371501" duration="7776000" />
+      <workItem from="1522989371501" duration="10523000" />
     </task>
     <task id="LOCAL-00001" summary="layouts typeless">
       <created>1507611710743</created>
@@ -796,11 +810,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522992494593</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="newBuild motoSky">
+      <created>1523003139764</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1523003139764</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="544386000" />
+    <option name="totallyTimeSpent" value="547133000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -921,9 +942,9 @@
             <element signature="n#!!block;n#trigerSliderArrow#0" expanded="false" />
             <element signature="n#!!block;n#trigerSliderPrev#0" expanded="false" />
             <element signature="n#!!block;n#scrollToElem#0" expanded="false" />
-            <element signature="e#2064#2138#0" expanded="false" />
+            <element signature="e#1552#1626#0" expanded="false" />
             <element signature="n#!!block;n#setFormParam#0" expanded="false" />
-            <element signature="e#2426#2472#0" expanded="false" />
+            <element signature="e#1914#1960#0" expanded="false" />
             <element signature="n#!!block;n#tabsChange#0" expanded="false" />
           </folding>
         </state>
@@ -1162,9 +1183,9 @@
             <element signature="n#!!block;n#trigerSliderArrow#0" expanded="false" />
             <element signature="n#!!block;n#trigerSliderPrev#0" expanded="false" />
             <element signature="n#!!block;n#scrollToElem#0" expanded="false" />
-            <element signature="e#2064#2138#0" expanded="false" />
+            <element signature="e#1552#1626#0" expanded="false" />
             <element signature="n#!!block;n#setFormParam#0" expanded="false" />
-            <element signature="e#2426#2472#0" expanded="false" />
+            <element signature="e#1914#1960#0" expanded="false" />
             <element signature="n#!!block;n#tabsChange#0" expanded="false" />
           </folding>
         </state>
@@ -1403,9 +1424,9 @@
             <element signature="n#!!block;n#trigerSliderArrow#0" expanded="false" />
             <element signature="n#!!block;n#trigerSliderPrev#0" expanded="false" />
             <element signature="n#!!block;n#scrollToElem#0" expanded="false" />
-            <element signature="e#2064#2138#0" expanded="false" />
+            <element signature="e#1552#1626#0" expanded="false" />
             <element signature="n#!!block;n#setFormParam#0" expanded="false" />
-            <element signature="e#2426#2472#0" expanded="false" />
+            <element signature="e#1914#1960#0" expanded="false" />
             <element signature="n#!!block;n#tabsChange#0" expanded="false" />
           </folding>
         </state>
@@ -2086,32 +2107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/pageCommon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="328" column="0" selection-start-line="328" selection-start-column="0" selection-end-line="328" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#MainSliderInit#0" expanded="false" />
-            <element signature="n#!!block;n#feedbackSliderSliderInit#0" expanded="false" />
-            <element signature="n#!!block;n#featuresSlider#0" expanded="false" />
-            <element signature="n#!!block;n#factorsSlider#0" expanded="false" />
-            <element signature="n#!!block;n#verticalSlider#0" expanded="false" />
-            <element signature="n#!!block;n#sliderprevSlider#0" expanded="false" />
-            <element signature="n#!!block;n#planSlider#0" expanded="false" />
-            <element signature="n#!!block;n#akciiSlider#0" expanded="false" />
-            <element signature="n#!!block;n#feedbackSlider#0" expanded="false" />
-            <element signature="n#!!block;n#howBuySlider#0" expanded="false" />
-            <element signature="n#!!block;n#inMap#0" expanded="false" />
-            <element signature="n#!!block;n#outMap#0" expanded="false" />
-            <element signature="e#18549#18623#0" expanded="false" />
-            <element signature="e#18695#18826#0" expanded="false" />
-            <element signature="e#18897#18970#0" expanded="false" />
-            <element signature="e#19044#19090#0" expanded="false" />
-            <element signature="e#19158#19183#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_fonts.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -2136,22 +2131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!block;n#trigerSliderArrow#0" expanded="false" />
-            <element signature="n#!!block;n#trigerSliderPrev#0" expanded="false" />
-            <element signature="n#!!block;n#scrollToElem#0" expanded="false" />
-            <element signature="e#2064#2138#0" expanded="false" />
-            <element signature="n#!!block;n#setFormParam#0" expanded="false" />
-            <element signature="e#2426#2472#0" expanded="false" />
-            <element signature="n#!!block;n#tabsChange#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -2172,10 +2151,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/sassSingle/page.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19550">
+          <caret line="1150" column="0" selection-start-line="1150" selection-start-column="0" selection-end-line="1150" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="3197" column="0" selection-start-line="3197" selection-start-column="0" selection-end-line="3197" selection-end-column="0" />
+        <state relative-caret-position="203">
+          <caret line="3411" column="27" selection-start-line="3411" selection-start-column="12" selection-end-line="3411" selection-end-column="27" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -2345,11 +2332,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sassSingle/page.sass">
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="952" column="8" selection-start-line="952" selection-start-column="8" selection-end-line="952" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#trigerSliderArrow#0" expanded="false" />
+            <element signature="n#!!block;n#trigerSliderPrev#0" expanded="false" />
+            <element signature="n#!!block;n#scrollToElem#0" expanded="false" />
+            <element signature="e#1552#1626#0" expanded="false" />
+            <element signature="n#!!block;n#setFormParam#0" expanded="false" />
+            <element signature="e#1914#1960#0" expanded="false" />
+            <element signature="n#!!block;n#tabsChange#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/pageCommon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="327" column="48" selection-start-line="327" selection-start-column="48" selection-end-line="327" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!block;n#MainSliderInit#0" expanded="false" />
+            <element signature="n#!!block;n#feedbackSliderSliderInit#0" expanded="false" />
+            <element signature="n#!!block;n#featuresSlider#0" expanded="false" />
+            <element signature="n#!!block;n#factorsSlider#0" expanded="false" />
+            <element signature="n#!!block;n#verticalSlider#0" expanded="false" />
+            <element signature="n#!!block;n#sliderprevSlider#0" expanded="false" />
+            <element signature="n#!!block;n#planSlider#0" expanded="false" />
+            <element signature="n#!!block;n#akciiSlider#0" expanded="false" />
+            <element signature="n#!!block;n#feedbackSlider#0" expanded="false" />
+            <element signature="n#!!block;n#howBuySlider#0" expanded="false" />
+            <element signature="n#!!block;n#inMap#0" expanded="false" />
+            <element signature="n#!!block;n#outMap#0" expanded="false" />
+            <element signature="e#19061#19135#0" expanded="false" />
+            <element signature="e#19207#19338#0" expanded="false" />
+            <element signature="e#19409#19482#0" expanded="false" />
+            <element signature="e#19556#19602#0" expanded="false" />
+            <element signature="e#19670#19695#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
